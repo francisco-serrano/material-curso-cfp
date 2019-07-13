@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var decodificador_1 = require("./decodificador");
+var televisor_1 = require("./televisor");
+var decodificador_a = new decodificador_1["default"]();
+decodificador_a.prenderApagar();
+var primerTelevisor = new televisor_1["default"]("Samsung");
+var decodificador = new decodificador_1["default"]();
+var segundoTelevisor = new televisor_1["default"]("Samsung", decodificador);
+console.log(primerTelevisor);
+console.log(segundoTelevisor);

@@ -1,0 +1,22 @@
+{
+  "name": "cfp-poo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "semana-1-saludo": "tsc ./semana-1/saludo.ts && node ./semana-1/saludo.js",
+    "semana-1-promedio": "tsc ./semana-1/calcular-promedio.ts && node ./semana-1/calcular-promedio.js",
+    "semana-1-parametros": "tsc ./semana-1/parametros-linea-comandos.ts && node ./semana-1/parametros-linea-comandos.js pepe",
+    "semana-2-recta": "tsc ./semana-2/ejemplo-recta/inicio-ejecucion.ts && node ./semana-2/ejemplo-recta/inicio-ejecucion.js",
+    "semana-2-televisor": "tsc ./semana-2/ejemplo-televisor/inicio-ejecucion.ts && node ./semana-2/ejemplo-televisor/inicio-ejecucion.js",
+    "semana-2-auto": "tsc ./semana-2/ejemplo-auto/inicio-ejecucion.ts && node ./semana-2/ejemplo-auto/inicio-ejecucion.js",
+    "semana-2-this": "tsc ./semana-2/ejemplo-this/inicio-ejecucion.ts && node ./semana-2/ejemplo-this/inicio-ejecucion.js",
+    "semana-2-archivos": "tsc ./semana-2/manejo-archivos/leer_info.ts && node ./semana-2/manejo-archivos/leer_info.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.6.2",
+    "readline-sync": "^1.4.9"
+  }
+}

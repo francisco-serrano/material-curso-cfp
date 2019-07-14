@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var smart_tv_1 = require("./smart-tv");
+var televisor_1 = require("./televisor");
+var miTelevisorComun = new televisor_1["default"]();
+var miTelevisorSmart = new smart_tv_1["default"]();
+miTelevisorComun.subirCanal();
+miTelevisorSmart.subirCanal();
+miTelevisorSmart.mirarNetflix();
+console.log(miTelevisorComun);
+console.log(miTelevisorSmart);

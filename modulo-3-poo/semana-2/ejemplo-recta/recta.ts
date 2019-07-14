@@ -5,8 +5,7 @@ export default class Recta {
     private puntoB: Punto;
 
     public constructor(puntoA: Punto, puntoB: Punto) {
-        this.puntoA = puntoA;
-        this.puntoB = puntoB;
+        this.asignarValores();
     }
 
     public getPuntoA(): Punto {
@@ -15,5 +14,10 @@ export default class Recta {
 
     public getPuntoB(): Punto {
         return this.puntoB;
+    }
+
+    private asignarValores(puntoA: Punto, puntoB: Punto) {
+        this.puntoA = puntoA;
+        this.puntoB = puntoB;
     }
 }

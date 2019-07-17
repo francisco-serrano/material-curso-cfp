@@ -12,7 +12,9 @@
     "semana-2-auto": "tsc ./semana-2/ejemplo-auto/inicio-ejecucion.ts && node ./semana-2/ejemplo-auto/inicio-ejecucion.js",
     "semana-2-this": "tsc ./semana-2/ejemplo-this/inicio-ejecucion.ts && node ./semana-2/ejemplo-this/inicio-ejecucion.js",
     "semana-2-archivos": "tsc ./semana-2/manejo-archivos/leer_info.ts && node ./semana-2/manejo-archivos/leer_info.js",
-    "semana-3-televisor": "tsc ./semana-3/ejemplo-televisor/inicio-ejecucion.ts && node ./semana-3/ejemplo-televisor/inicio-ejecucion.js"
+    "semana-3-televisor": "tsc ./semana-3/ejemplo-televisor/inicio-ejecucion.ts && node ./semana-3/ejemplo-televisor/inicio-ejecucion.js",
+    "semana-3-auto": "tsc ./semana-3/ejemplo-auto/init.ts && node ./semana-3/ejemplo-auto/init.js",
+    "semana-3-abc": "tsc ./semana-3/ejemplo-abc/herencia-cadena.ts && node ./semana-3/ejemplo-abc/herencia-cadena.js"
   },
   "author": "",
   "license": "ISC",

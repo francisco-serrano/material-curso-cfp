@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var AutoDeportivo_1 = require("./AutoDeportivo");
+var auto_1 = require("./auto");
+var miAutoDeportivo = new AutoDeportivo_1["default"]("Fiat", "Uno", 5);
+console.log(miAutoDeportivo.getMarca());
+console.log(miAutoDeportivo.getModelo());
+var miAuto = new auto_1["default"]("Renault", "Clio");
+console.log(miAuto.getMarca());
+console.log(miAuto);
+console.log(miAutoDeportivo);
